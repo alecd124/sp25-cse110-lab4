@@ -13,4 +13,5 @@
 13. a: '32' since it's a string, b: 1, since the - operator forces '3' to become 3, c: outputs 3 since null is 0, d: '3null' since it concatenates with a + operator, e: 4 since true becomes 1, f: 0 since it's 0 + 0,        g: '3undefined' since it converts both to strings, h: NaN since undefined cannot be a number.
 14. a: true since 2 becomes a number, b: false since '2' comes after '1', c: true since '2' becomes a number,   d: false since === checks both value & type, e: false since true is 1, f: boolean(2) becomes true therefore both the same.
 15. == is loose equality operator where it check value but not type, where as === operator checks both value and type.
-17. 
+17. I think the final result would be [2,4,6] since it starts an empty arr where we store the results, the for loop gets through each item, it callsback with each iteration then stores the result in the new array and then returning the newarr but multiplied by 2.
+19. The output of the above code is 1, 4, 3, 2, since 2 is scheduled to run after 1 second, whereas 3 is scheduled to run after the current stack clears. 
