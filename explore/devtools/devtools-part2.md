@@ -1,1 +1,3 @@
+1. The bug was that the calculateSum function was not returning numeric addition but instead one of the bugs we saw in the firsst part of the lab. This happened because both num1 & num2 were being pulled from elements using .value which returned strings and did concatenation instead.
+2. I would change the input values to change the strings to #s before going into the calcSum function. It can be done by changing the reading part to Number().
 
